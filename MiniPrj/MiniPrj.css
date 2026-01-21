@@ -68,7 +68,7 @@
 }
 .section1 {
   margin-top: 95px;
-  background: url(./Ảnh/image.png);
+  background: url(./Ảnh/image.png); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -282,92 +282,5 @@
   vertical-align: middle;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    width: 1024px;
-  }
-  .container-header {
-    width: 1024px;
-    height: 96.30999755859375px;
-  }
-  .section1 {
-    width: 1024px;
-    height: 512px;
-  }
-  .section2 {
-    width: 1024px;
-    height: 1143.4200439453125px;
-  }
-  .section3 {
-    width: 1024px;
-    height: 501.2200012207031px;
-  }
-  .footer {
-    width: 1024px;
-    height: 354.2200012207031px;
-  }
-  .container {
-    width: 1024px;
-    height: 234.22000122070312px;
-  }
-}
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-  .header {
-    width: 1440px;
-  }
-  .container-header {
-    width: 1200px;
-    height: 96.30999755859375px;
-  }
-  .section1 {
-    width: 1440px;
-    height: 720px;
-  }
-  .section2 {
-    width: 1200px;
-    height: 682.9099731445312px;
-  }
-  .section3 {
-    width: 1200px;
-    height: 501.2200012207031px;
-  }
-  .footer {
-    width: 1440px;
-    height: 354.2200012207031px;
-  }
-  .container {
-    width: 1200px;
-    height: 234.22000122070312px;
-  }
-}
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
-  .header {
-    width: 1920px;
-  }
-  .container-header {
-    width: 1200px;
-    height: 96.30999755859375px;
-  }
-  .section1 {
-    width: 1920px;
-    height: 960px;
-  }
-  .section2 {
-    width: 1200px;
-    height: 682.9099731445312px;
-  }
-  .section3 {
-    width: 1200px;
-    height: 501.2200012207031px;
-  }
-  .footer {
-    width: 1920px;
-    height: 354.2200012207031px;
-  }
-  .container {
-    width: 1200px;
-    height: 234.22000122070312px;
-  }
-}
